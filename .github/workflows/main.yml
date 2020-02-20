@@ -8,6 +8,7 @@ jobs:
     - name: Run Snyk to check for vulnerabilities
       uses: snyk/actions/python@master
       env:
+        COMMAND: "python setup.py install"
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
         args: --file=setup.py
