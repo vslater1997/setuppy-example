@@ -15,14 +15,14 @@ else:
 
 setup(
     # Application name:
-    name="puppet_webapp",
+    name="webapp",
 
     # Version number (initial):
     version=verstr,
 
     # Application author details:
-    author="Matt Cadorette",
-    author_email="mattc@puppet.com",
+    author="Matthew Yates",
+    author_email="matthew.yates@snyk.io",
 
     # Packages
     packages=["webui"],
@@ -31,7 +31,7 @@ setup(
     include_package_data=True,
 
     # Details
-    url="https://github.com/ipcrm/puppet_webapp",
+    url="https://github.com/mtyates/puppet_webapp",
 
     description="Example App",
     test_suite='tests',
