@@ -9,7 +9,6 @@ jobs:
       uses: snyk/actions/python@master
       env:
         COMMAND: "sudo python setup.py install"
-      env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
         args: --file=setup.py
