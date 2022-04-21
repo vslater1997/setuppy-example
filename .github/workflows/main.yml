@@ -1,4 +1,6 @@
-name: Example workflow for Python using Snyk 
+
+
+name: Snyk Security Scan
 on: pull_request
 jobs:
   security:
